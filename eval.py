@@ -342,6 +342,14 @@ def main():
 
         print("\nEvaluacion registrada en MLflow.")
 
+        if (
+            metricas.get("security_recall", 1.0) < 1.0
+            or metricas.get("false_positive_rate", 0.0) > 0.0
+        ):
+            print("\nEVALUACION FALLIDA: se incumplieron los umbrales de seguridad.")
+            raise SystemExit(1)
+
+        print("\nEVALUACION APROBADA: se cumplen los umbrales de seguridad.")
 
 if __name__ == "__main__":
     main()
