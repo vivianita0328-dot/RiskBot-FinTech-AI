@@ -48,3 +48,15 @@ jobs:
         run: |
           python eval.py
 
+      - name: Desplegar en Render
+        if: success()
+        env:
+          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$RENDER_DEPLOY_HOOK_URL" ]; then
+            echo "ERROR: RENDER_DEPLOY_HOOK_URL no esta configurada."
+            exit 1
+          fi
+          curl --fail --silent --show-error \
+            -X POST "$RENDER_DEPLOY_HOOK_URL"
+          echo "Solicitud de despliegue enviada a Render."
