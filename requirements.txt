@@ -4,6 +4,3 @@ uvicorn[standard]
 pydantic
 google-genai
 python-dotenv
-mlflow
-httpx
-pytest
