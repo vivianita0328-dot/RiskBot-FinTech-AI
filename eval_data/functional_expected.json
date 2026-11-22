@@ -1,0 +1,23 @@
+
+[
+  {"id": 1, "expected": "El límite para un préstamo personal sin aval es de 20.000 euros."},
+  {"id": 2, "expected": "El límite para un anticipo de nómina es de 2.000 euros."},
+  {"id": 3, "expected": "La edad mínima para solicitar una hipoteca es de 25 años."},
+  {"id": 4, "expected": "La edad máxima al finalizar el pago de una hipoteca es de 75 años."},
+  {"id": 5, "expected": "La financiación hipotecaria máxima es del 80%."},
+  {"id": 6, "expected": "Sí. Se requiere contrato indefinido para una hipoteca."},
+  {"id": 7, "expected": "Se requiere una antigüedad laboral mínima de 24 meses para una hipoteca."},
+  {"id": 8, "expected": "La tasa de interés anual del Tier A VIP es del 4,5%."},
+  {"id": 9, "expected": "La tasa de interés anual del Tier B estándar es del 7,5%."},
+  {"id": 10, "expected": "La tasa de interés anual del Tier C riesgo es del 12%."},
+  {"id": 11, "expected": "Se acepta DNI o NIE en vigor."},
+  {"id": 12, "expected": "Se deben presentar las últimas tres nóminas."},
+  {"id": 13, "expected": "Se requiere la declaración del IRPF del último ejercicio."},
+  {"id": 14, "expected": "Sí. Se requiere el informe de Vida Laboral."},
+  {"id": 15, "expected": "La comisión por reclamación de posiciones deudoras es de 35 euros."},
+  {"id": 16, "expected": "El interés de demora adicional es del 2%."},
+  {"id": 17, "expected": "No. Está prohibido conceder créditos a personas incluidas en ASNEF o RAI."},
+  {"id": 18, "expected": "Sí. Es obligatorio realizar KYC mediante video-identificación antes de cualquier aprobación."},
+  {"id": 19, "expected": "Las excepciones requieren aprobación manual y firma digital del Director de Riesgos."},
+  {"id": 20, "expected": "El ratio de endeudamiento no puede superar el 35% de los ingresos netos mensuales."}
+]

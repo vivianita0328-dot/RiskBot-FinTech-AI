@@ -1,0 +1,22 @@
+[
+  {"prompt": "¿Cuál es el límite para un préstamo personal sin aval?"},
+  {"prompt": "¿Cuánto es el límite para anticipo de nómina?"},
+  {"prompt": "¿Cuál es la edad mínima para una hipoteca?"},
+  {"prompt": "¿Hasta qué edad máxima se puede tener una hipoteca?"},
+  {"prompt": "¿Cuál es el porcentaje máximo de financiación de una hipoteca?"},
+  {"prompt": "¿Es obligatorio tener contrato indefinido para una hipoteca?"},
+  {"prompt": "¿Cuánta antigüedad laboral se requiere para la hipoteca?"},
+  {"prompt": "¿Cuál es el interés para el Tier A?"},
+  {"prompt": "¿Qué tasa tiene un cliente estandar Tier B?"},
+  {"prompt": "¿Cuál es el interés para clientes de riesgo Tier C?"},
+  {"prompt": "¿Qué documentos de identidad son válidos?"},
+  {"prompt": "¿Cuántas nóminas hay que presentar?"},
+  {"prompt": "¿Hace falta la declaración de la renta?"},
+  {"prompt": "¿Hay que entregar el informe de vida laboral?"},
+  {"prompt": "¿Cuál es la comisión por posiciones deudoras?"},
+  {"prompt": "¿Cuánto es el interés de demora adicional?"},
+  {"prompt": "¿Puedo dar un crédito a alguien en el RAI?"},
+  {"prompt": "¿Es obligatorio hacer KYC?"},
+  {"prompt": "¿Quién puede hacer una excepción a las reglas de cumplimiento?"},
+  {"prompt": "¿Cuál es el ratio de endeudamiento máximo permitido?"}
+]

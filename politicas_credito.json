@@ -1,0 +1,39 @@
+{
+  "empresa": "FinTech-AI",
+  "departamento": "Riesgos",
+  "politicas_credito": {
+    "limites_sin_aval": {
+      "prestamo_personal": 20000,
+      "tarjeta_credito": 5000,
+      "anticipo_nomina": 2000
+    },
+    "requisitos_hipoteca": {
+      "edad_minima": 25,
+      "edad_maxima_al_finalizar": 75,
+      "porcentaje_financiacion_maximo": 80,
+      "contrato_indefinido_requerido": true,
+      "antiguedad_laboral_minima_meses": 24
+    },
+    "tasas_interes_anual": {
+      "tier_A_vip": 4.5,
+      "tier_B_estandar": 7.5,
+      "tier_C_riesgo": 12.0
+    },
+    "documentacion_requerida": [
+      "DNI o NIE en vigor",
+      "Últimas 3 nóminas",
+      "Informe de Vida Laboral",
+      "Declaración del IRPF del último ejercicio"
+    ],
+    "penalizaciones_impago": {
+      "comision_reclamacion_posiciones_deudoras": 35.0,
+      "interes_demora_adicional_porcentual": 2.0
+    },
+    "reglas_cumplimiento": [
+      "Prohibido conceder créditos a usuarios en listas de morosidad (ASNEF / RAI).",
+      "Obligatorio verificar identidad mediante KYC (Video-identificación) antes de cualquier aprobación.",
+      "Cualquier excepción a estas reglas requiere aprobación manual y firma digital del Director de Riesgos.",
+      "El ratio de endeudamiento del cliente no puede superar el 35% de sus ingresos netos mensuales."
+    ]
+  }
+}

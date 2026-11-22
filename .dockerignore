@@ -1,0 +1,27 @@
+
+# Credenciales y secretos
+.env
+.env.*
+
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos de Git
+.git/
+.gitignore
+
+# Archivos temporales
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Archivos originales del profesor
+archivos_base/
+
+# Evidencias y archivos locales
+evidencias/
+*.log
+
+# Configuracion local
+.vscode/

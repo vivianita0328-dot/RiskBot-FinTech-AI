@@ -1,0 +1,29 @@
+
+# Credenciales y secretos
+.env
+.env.*
+
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Configuración local de herramientas
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos originales de referencia del profesor
+archivos_base/
+
+# Base de datos y registros locales de MLflow
+mlflow.db
+mlruns/
+
+# Resultados temporales de pruebas
+.pytest_cache/
